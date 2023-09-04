@@ -614,7 +614,7 @@ input, textarea {
     }
     .display_section .desc {
         color: #616161;
-        line-height: 2;
+        line-height: 1;
         /* 플롯 */
         float: right;
         /* 포지션위치기준값 */
