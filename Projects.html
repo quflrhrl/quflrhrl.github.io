@@ -25,10 +25,16 @@
 <script src="./assets/js/jquery-1.12.4.min.js"></script>
 <script src="./assets/js/jquery-3.3.1.min.js"></script>
 <script src="./assets/js/prefixfree.min.js"></script>
+
+<style>
+</style>
 </head>
 <body>
 	<div id="wrap">
 		<header class="header cf container">
+			<h1 class="logo">
+				<a href="https://quflrhrl.github.io">Byeol&nbsp;-&nbsp;log</a>
+			</h1>
 			<nav>
 				<ul class="gnb">
 					<li class="over"><a href="./Posts.html">Posts</a></li>
@@ -41,50 +47,27 @@
 	<section class="display_section container">
 		<div class="cf">
 			<section class="promotion_section container">
-				<h2 class="sec_title">Byeol-log</h2>
-				<p class="desc">'Byeol-log'는 'Byeol'의 자유로운 블로그 입니다.</p>
+				<h2 class="sec_title">Projects</h2>
+				<p class="desc">-</p>
 				<br>
-				<script type="text/javascript">
-					function changeImage() {
-						var num = Math.floor(Math.random() * 6) + 1;
-						document.getElementById("randomImage").src = "./assets/images/profile/profile"
-								+ num + ".png";}
-					setInterval(changeImage, 3000);
-				</script>
-				<img id="randomImage" src="./assets/images/profile/profile4.png" alt="랜덤이미지" />
+				<!-- <script type="text/javascript">
+					var num = Math.floor(Math.random() * 6) + 1;
+					document
+							.write("<img src='./assets/images/profile" + num +".png' alt='랜덤이미지' / >");
+				</script> -->
 			</section>
-			<br><br>
-			<p>김&nbsp;별&nbsp;(Kim Byeol)</p>
-			<br><br>
-			<p class="over">
-				<a href="mailto:qufdlrhrl@naver.com"><img
-					src="./assets/images/icon/email.png"> Email&nbsp;&nbsp; 
-			</p><br>
-			<p class="over">
-				<a href="https://instagram.com/byeolzzi_93?utm_source=qr&igshid=OGIxMTE0OTdkZA=="><img
-					src="./assets/images/icon/Instagram.png">
-					Instagram&nbsp;&nbsp; 
-			</p><br>
-			<p class="over">
-				<a href="https://www.facebook.com/byeol93529?mibextid=ZbWKwL"><img
-					src="./assets/images/icon/Facebook.png"> Facebook&nbsp;&nbsp;
-			</p><br>
-			<p class="over">
-				<a href="https://github.com/quflrhrl"><img
-					src="./assets/images/icon/github.png"> Github&nbsp;&nbsp; 
-			</p></div>
+		</div>
 	</section>
 	<footer class="footer">
 		<hr class="divider">
+		<!-- <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6325.925109043142!2d126.96793963488768!3d37.555946000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca266e3947003%3A0xe7be97c172b7af6a!2z7ISc7Jq47Jet!5e0!3m2!1sko!2skr!4v1663634471811!5m2!1sko!2skr" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>-->
 		<p>COPYRIGHT ALL RIGHTS RESERVED., BYEOL</p>
 	</footer>
-	<script>
-		$('.menu_toggle_btn').click(function() {
-			$('.gnb').css({
-				width : '30%',
-				marginLeft : '70%'
-			}).stop().slideToggle();
-		});
-	</script>
+	</div>
 </body>
 </html>

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.over a:hover {
+  color: #3f51b5;
+}
+.over a:before {
+  content: '';
+  border-bottom: solid 1px #3f51b5;
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%;
+  
+  opacity: 0;
+}
+
+.over a:hover:before {
+  opacity: 1.0;
+}
+
+.over a, ..over a:before {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
