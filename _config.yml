@@ -217,7 +217,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/:posts/
+permalink: /:categories/:title/posts/
 paginate: 5 
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
