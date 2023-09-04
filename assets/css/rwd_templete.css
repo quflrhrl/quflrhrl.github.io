@@ -620,7 +620,7 @@ input, textarea {
         /* 포지션위치기준값 */
         position: relative;
         padding-left: 10px;
-        bottom: 2px;
+        bottom: 40px;
     }
 
     /* 데코 세로 막대 */
