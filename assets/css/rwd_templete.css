@@ -614,13 +614,13 @@ input, textarea {
     }
     .display_section .desc {
         color: #616161;
-        line-height: 1;
+        line-height: 4;
         /* 플롯 */
         float: right;
         /* 포지션위치기준값 */
         position: relative;
         padding-left: 20px;
-        border: 10px;
+        top: 10px;
     }
 
     /* 데코 세로 막대 */
