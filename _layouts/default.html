@@ -13,7 +13,7 @@
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     <!-- {% include_cached skip-links.html %}
-    {% include_cached masthead.html %} -->
+    {% include_cached masthead.html %} 1-->
 
     <div class="initial-content">
       {{ content }}
@@ -23,13 +23,13 @@
       <div class="search-content">
         {% include_cached search/search_form.html %}
       </div>
-    {% endif %} -->
+    {% endif %} 2-->
 
     <div id="footer" class="page__footer">
        <!-- <footer>
         {% include footer/custom.html %}
         {% include_cached footer.html %}
-      </footer> --> 
+      </footer> 3--> 
     </div>
     {% include scripts.html %}
   </body>
