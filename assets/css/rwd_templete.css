@@ -608,19 +608,18 @@ input, textarea {
     }
     .display_section .sec_title {
         /* 속성값 수정 */
-        margin-bottom: 0;
+        margin-bottom: 1;
         /* 플롯 */
         float: left;
     }
     .display_section .desc {
         color: #616161;
-        line-height: 4;
+        line-height: 2;
         /* 플롯 */
         float: right;
         /* 포지션위치기준값 */
         position: relative;
-        padding-left: 20px;
-        top: 10px;
+        padding-left: 10px;
     }
 
     /* 데코 세로 막대 */
