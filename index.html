@@ -1,3 +1,90 @@
----
-layout: home
----
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Byeol-log</title>
+<!-- 폰트어썸 -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- 웹페이지 타이틀 로고 넣기 (PNG 파일로 해야함.)
+<link rel="shortcut icon"
+	href="./assets/images/favicon/montblanc_fav32.png"> -->
+<!-- 웹페이지 저장시 아이콘 생성 코드 (PNG 파일로 해야함.)
+<link rel="apple-touch-icon=precomposed"
+	href="./assets/images/favicon/montblanc_fav144.png"> -->
+<!-- 리셋 -->
+<link rel="stylesheet" href="./assets/css/reset.css">
+<!-- 폰트 적용 -->
+<link rel="stylesheet" href="./assets/css/notosans_kr_CDN.css">
+<!-- <link rel="stylesheet" href="./assets/css/font.css"> -->
+<!-- 페이지 CSS -->
+<link rel="stylesheet" href="./assets/css/rwd_templete.css">
+<!-- 마우스오버 적용 -->
+<link rel="stylesheet" href="./assets/css/move.css">
+<!-- JS 플러그인 파일 -->
+<script src="./assets/js/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/jquery-3.3.1.min.js"></script>
+<script src="./assets/js/prefixfree.min.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header class="header cf container">
+			<nav>
+				<ul class="gnb">
+					<li class="over"><a href="./Posts.html">Posts</a></li>
+					<li class="over"><a href="./Projects.html">Projects</a></li>
+					<li class="over"><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<section class="display_section container">
+		<div class="cf">
+			<section class="promotion_section container">
+				<h2 class="sec_title">Byeol-log</h2>
+				<p class="desc">'Byeol-log'는 'Byeol'의 자유로운 블로그 입니다.</p>
+				<br>
+				<script type="text/javascript">
+					function changeImage() {
+						var num = Math.floor(Math.random() * 6) + 1;
+						document.getElementById("randomImage").src = "./assets/images/profile/profile"
+								+ num + ".png";}
+					setInterval(changeImage, 3000);
+				</script>
+				<img id="randomImage" src="./assets/images/profile/profile4.png" alt="랜덤이미지" />
+			</section>
+			<br><br>
+			<p>김&nbsp;별&nbsp;(Kim Byeol)</p>
+			<br><br>
+			<p class="over">
+				<a href="mailto:qufdlrhrl@naver.com"><img
+					src="./assets/images/icon/email.png"> Email&nbsp;&nbsp; 
+			</p><br>
+			<p class="over">
+				<a href="https://instagram.com/byeolzzi_93?utm_source=qr&igshid=OGIxMTE0OTdkZA=="><img
+					src="./assets/images/icon/Instagram.png">
+					Instagram&nbsp;&nbsp; 
+			</p><br>
+			<p class="over">
+				<a href="https://www.facebook.com/byeol93529?mibextid=ZbWKwL"><img
+					src="./assets/images/icon/Facebook.png"> Facebook&nbsp;&nbsp;
+			</p><br>
+			<p class="over">
+				<a href="https://github.com/quflrhrl"><img
+					src="./assets/images/icon/github.png"> Github&nbsp;&nbsp; 
+			</p></div>
+	</section>
+	<footer class="footer">
+		<hr class="divider">
+		<p>COPYRIGHT ALL RIGHTS RESERVED., BYEOL</p>
+	</footer>
+	<script>
+		$('.menu_toggle_btn').click(function() {
+			$('.gnb').css({
+				width : '30%',
+				marginLeft : '70%'
+			}).stop().slideToggle();
+		});
+	</script>
+</body>
+</html>
