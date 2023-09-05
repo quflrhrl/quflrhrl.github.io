@@ -1,30 +1,109 @@
 ---
 layout: archive
 ---
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Byeol-log</title>
+<!-- 폰트어썸 -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- 웹페이지 타이틀 로고 넣기 (PNG 파일로 해야함.)
+<link rel="shortcut icon"
+	href="../assets/images/favicon/montblanc_fav32.png"> -->
+<!-- 웹페이지 저장시 아이콘 생성 코드 (PNG 파일로 해야함.)
+<link rel="apple-touch-icon=precomposed"
+	href="../assets/images/favicon/montblanc_fav144.png"> -->
+<!-- 리셋 -->
+<link rel="stylesheet" href="../assets/css/reset.css">
+<!-- 폰트 적용 -->
+<link rel="stylesheet" href="../assets/css/notosans_kr_CDN.css">
+<!-- <link rel="stylesheet" href="../assets/css/font.css"> -->
+<!-- 페이지 CSS -->
+<link rel="stylesheet" href="../assets/css/rwd_templete.css">
+<!-- 게시글 SCSS -->
+<link rel="stylesheet" href="../assets/css/main.scss">
+<!-- 마우스오버 적용 -->
+<link rel="stylesheet" href="../assets/css/move.css">
+<!-- JS 플러그인 파일 -->
+<script src="../assets/js/jquery-1.12.4.min.js"></script>
+<script src="../assets/js/jquery-3.3.1.min.js"></script>
+<script src="../assets/js/prefixfree.min.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<header class="header cf container">
+			<h1 class="logo">
+				<a href="https://quflrhrl.github.io">Byeol&nbsp;-&nbsp;log</a>
+			</h1>
+			<nav>
+				<ul class="gnb">
+					<li class="over"><a href="/posts/">Posts</a></li>
+					<li class="over"><a href="/projects/">Projects</a></li>
+					<li class="over"><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<section class="display_section container">
+		<div class="cf">
+			<section class="promotion_section container">
+				<h2 class="sec_title">Posts</h2>
+				<!-- <p class="desc">-</p> -->
+        <br><br>
 
-{{ content }}
+        {{ content }}
 
-<ul class="taxonomy__index">
-  {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-  {% for year in postsInYear %}
-    <li>
-      <a href="#{{ year.name }}">
-        <strong>{{ year.name }}</strong> <span class="taxonomy__count">{{ year.items | size }}</span>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-{% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-{% for year in postsByYear %}
-  <section id="{{ year.name }}" class="taxonomy__section">
-    <h2 class="archive__subtitle">{{ year.name }}</h2>
-    <div class="entries-{{ entries_layout }}">
-      {% for post in year.items %}
-        {% include archive-single.html type=entries_layout %}
-      {% endfor %}
-    </div>
-    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-  </section>
-{% endfor %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+<!--{% include paginator.html %}-->
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+        
+				<br>
+				<!-- <script type="text/javascript">
+					var num = Math.floor(Math.random() * 6) + 1;
+					document
+							.write("<img src='../assets/images/profile" + num +".png' alt='랜덤이미지' / >");
+				</script> -->
+			</section>
+		</div>
+	</section>
+	<footer class="footer">
+		<hr class="divider">
+		<!-- <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6325.925109043142!2d126.96793963488768!3d37.555946000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca266e3947003%3A0xe7be97c172b7af6a!2z7ISc7Jq47Jet!5e0!3m2!1sko!2skr!4v1663634471811!5m2!1sko!2skr" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>-->
+		<p>COPYRIGHT ALL RIGHTS RESERVED., BYEOL</p>
+	</footer>
+	</div>
+</body>
+</html>
