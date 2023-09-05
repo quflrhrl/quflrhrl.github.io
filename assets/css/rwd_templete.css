@@ -627,7 +627,7 @@ input, textarea {
         content: "";
         display: block;
         width: 2px;
-        height: 20px;
+        height: 30px;
         background: #e0e0e0;
         /* 포지션 */
         position: absolute;
