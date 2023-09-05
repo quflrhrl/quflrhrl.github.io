@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "조건문( if문 & switch문 )"
 categories:
   - Java
