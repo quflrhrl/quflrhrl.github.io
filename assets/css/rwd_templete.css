@@ -90,11 +90,10 @@ body {
 }
 
 /* Hamberger Toggle */
-.menu_toggle_btn {
+/*.menu_toggle_btn {
     width: 20px;
     margin-top: 4px;
     cursor: pointer;
-    /* 플롯 */
     float: right;
 }
 .menu_toggle_btn span {
@@ -105,7 +104,7 @@ body {
 }
 .menu_toggle_btn span:nth-child(2) {
     margin: 5px 0;
-}
+} */
 
 /* 2. Slider */
 .slider .slider_img {
@@ -378,14 +377,14 @@ input, textarea {
     }
 
     /* Hamberger Toggle */
-    .menu_toggle_btn {
+    /*.menu_toggle_btn {
         width: 20px;
         margin-top: 4px;
         cursor: pointer;
-        /* 플롯 */
+
         float: right;
 
-        /* 태블릿 추가 */
+
         display: none;
     }
     .menu_toggle_btn span {
@@ -396,7 +395,7 @@ input, textarea {
     }
     .menu_toggle_btn span:nth-child(2) {
         margin: 5px 0;
-    }
+    } */
 
     /* 3-1. 태블릿 Display */
     .display_section {
@@ -608,18 +607,18 @@ input, textarea {
     }
     .display_section .sec_title {
         /* 속성값 수정 */
-        margin-bottom: 0;
+        margin-bottom: 1;
         /* 플롯 */
         float: left;
     }
     .display_section .desc {
         color: #616161;
-        line-height: 2;
+        line-height: 3;
         /* 플롯 */
         float: right;
         /* 포지션위치기준값 */
         position: relative;
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     /* 데코 세로 막대 */
@@ -627,7 +626,7 @@ input, textarea {
         content: "";
         display: block;
         width: 2px;
-        height: 44px;
+        height: 30px;
         background: #e0e0e0;
         /* 포지션 */
         position: absolute;
