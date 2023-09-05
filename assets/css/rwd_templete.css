@@ -377,14 +377,14 @@ input, textarea {
     }
 
     /* Hamberger Toggle */
-    .menu_toggle_btn {
+    /*.menu_toggle_btn {
         width: 20px;
         margin-top: 4px;
         cursor: pointer;
-        /* 플롯 */
+
         float: right;
 
-        /* 태블릿 추가 */
+
         display: none;
     }
     .menu_toggle_btn span {
@@ -395,7 +395,7 @@ input, textarea {
     }
     .menu_toggle_btn span:nth-child(2) {
         margin: 5px 0;
-    }
+    } */
 
     /* 3-1. 태블릿 Display */
     .display_section {
