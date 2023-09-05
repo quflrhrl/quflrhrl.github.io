@@ -47,7 +47,6 @@ if (조건식) {
 
 예제)
 
-![단일if.GIF](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d84f1305-8a9f-44af-b4b6-7215ec8edcc0/%EB%8B%A8%EC%9D%BCif.gif)
 
  int 타입인 num에 10이 할당되었고, 조건식은 num이 양수인지 확인한다. 따라서 해당 예제는 조건식이 true이므로 "num은 양수입니다." 라는 결과가 출력된다.
 
@@ -69,7 +68,6 @@ if (조건식) {
 
 예제)
 
-![이중if.GIF](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a10dfe9-68b2-4bd0-88fc-4cd40ad5a97f/%EC%9D%B4%EC%A4%91if.gif)
 
  int 타입인 num에 9가 할당되었고, 조건식은 num이 10보다 큰지 확인한다. 해당 예제에서는 조건식이 false이므로 "num은 10보다 작다." 라는 결과가 출력된다.
 
@@ -95,7 +93,6 @@ if (a조건식) {
 
 예제)
 
-![다중if.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad3f0c7c-84fd-4a9f-af9d-6e5aae65ac98/%EB%8B%A4%EC%A4%91if.png)
 
  int 타입인 num에 7이 할당되었고, a 조건식에서 num이 9보다 큰지 확인한 뒤, a 조건식이 false일 경우 b 조건식인 num이 6보다 큰지 확인한다. 해당 예제는 a 조건식에서 false, b 조건식에서 true 이므로 "num은 9보다 작고 6보다 크다." 라는 결과가 출력된다.
 
@@ -123,7 +120,6 @@ if (a조건식) {
 
 예제)
 
-![중첩if.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7fc10f0e-41ba-4e1e-9100-858a167b191f/%EC%A4%91%EC%B2%A9if.png)
 
  int 타입인 num1은 5, num2는 8, num3은 10이 각각 할당됬다. a 조건식에서 num2가 num1보다 큰지 확인한 뒤, a 조건식이 true일 경우 b 조건식인 num2가 num3보다 큰지 확인한다. 해당 예제의 경우 a 조건식과 b 조건식 모두 true이므로 "num2는 num1보다 크고 num3보다 작다"라는 결과가 출력된다.
 
@@ -159,7 +155,6 @@ switch (조건식) {
 
 예제)
 
-![단일if.GIF](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6b55e24-87a0-47da-8123-89573f7b11d2/%EB%8B%A8%EC%9D%BCif.gif)
 
  int 타입인 num에 2가 할당이 되었고, 조건식은 num일 경우 해당이 된다. 해당 예제에서 조건식에 true이므로 case를 확인한다. 이때 num과 같은 값을 가진 case 2의 “num의 값은 ‘2’이다.” 라는 결과가 출력 되고 break 문으로 인해 case 3은 확인하지 않고 종료가 된다.
 
