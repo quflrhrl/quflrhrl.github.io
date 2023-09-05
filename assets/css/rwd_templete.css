@@ -90,11 +90,10 @@ body {
 }
 
 /* Hamberger Toggle */
-.menu_toggle_btn {
+/*.menu_toggle_btn {
     width: 20px;
     margin-top: 4px;
     cursor: pointer;
-    /* 플롯 */
     float: right;
 }
 .menu_toggle_btn span {
@@ -105,7 +104,7 @@ body {
 }
 .menu_toggle_btn span:nth-child(2) {
     margin: 5px 0;
-}
+} */
 
 /* 2. Slider */
 .slider .slider_img {
