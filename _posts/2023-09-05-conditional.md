@@ -17,29 +17,29 @@ tags:
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- 웹페이지 타이틀 로고 넣기 (PNG 파일로 해야함.)
 <link rel="shortcut icon"
-	href="../assets/images/favicon/montblanc_fav32.png"> -->
+	href="./assets/images/favicon/montblanc_fav32.png"> -->
 <!-- 웹페이지 저장시 아이콘 생성 코드 (PNG 파일로 해야함.)
 <link rel="apple-touch-icon=precomposed"
-	href="../assets/images/favicon/montblanc_fav144.png"> -->
+	href="./assets/images/favicon/montblanc_fav144.png"> -->
 <!-- 리셋 -->
-<link rel="stylesheet" href="../assets/css/reset.css">
+<link rel="stylesheet" href="./assets/css/reset.css">
 <!-- 폰트 적용 -->
-<link rel="stylesheet" href="../assets/css/notosans_kr_CDN.css">
+<link rel="stylesheet" href="./assets/css/notosans_kr_CDN.css">
 <!-- <link rel="stylesheet" href="../assets/css/font.css"> -->
 <!-- 페이지 CSS -->
-<link rel="stylesheet" href="../assets/css/rwd_templete.css">
+<link rel="stylesheet" href="./assets/css/rwd_templete.css">
 <!-- 게시글 SCSS -->
-<link rel="stylesheet" href="../assets/css/main.scss">
+<link rel="stylesheet" href="./assets/css/main.scss">
 <!-- 마우스오버 적용 -->
-<link rel="stylesheet" href="../assets/css/move.css">
+<link rel="stylesheet" href="./assets/css/move.css">
 <!-- JS 플러그인 파일 -->
-<script src="../assets/js/jquery-1.12.4.min.js"></script>
-<script src="../assets/js/jquery-3.3.1.min.js"></script>
-<script src="../assets/js/prefixfree.min.js"></script>
-<script src="../assets/js/_main.js"></script>
-<script src="../assets/js/main.min.js"></script>
-<script src="../assets/js/plugins/gumshoe.js"></script>
-<script src="../assets/js/vendor/jquery/jquery-3.6.0.js"></script>
+<script src="./assets/js/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/jquery-3.3.1.min.js"></script>
+<script src="./assets/js/prefixfree.min.js"></script>
+<script src="./assets/js/_main.js"></script>
+<script src="./assets/js/main.min.js"></script>
+<script src="./assets/js/plugins/gumshoe.js"></script>
+<script src="./assets/js/vendor/jquery/jquery-3.6.0.js"></script>
 </head>
 <body>
 	<div id="wrap">
@@ -60,7 +60,9 @@ tags:
 		<div class="cf">
 			<section class="promotion_section container">
 				<h2 class="sec_title">Projects</h2>
-				<p class="desc">-</p>
+
+
+    
 				<br>
 				<!-- <script type="text/javascript">
 					var num = Math.floor(Math.random() * 6) + 1;
