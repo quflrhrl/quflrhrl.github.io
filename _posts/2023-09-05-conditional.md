@@ -7,46 +7,7 @@ tags:
   - if
   - switch
 ---
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="./assets/css/reset.css">
-<link rel="stylesheet" href="./assets/css/notosans_kr_CDN.css">
-<link rel="stylesheet" href="./assets/css/rwd_templete.css">
-<link rel="stylesheet" href="./assets/css/main.scss">
-<link rel="stylesheet" href="./assets/css/move.css">
-<script src="./assets/js/jquery-1.12.4.min.js"></script>
-<script src="./assets/js/jquery-3.3.1.min.js"></script>
-<script src="./assets/js/prefixfree.min.js"></script>
-<script src="./assets/js/_main.js"></script>
-<script src="./assets/js/main.min.js"></script>
-<script src="./assets/js/plugins/gumshoe.js"></script>
-<script src="./assets/js/vendor/jquery/jquery-3.6.0.js"></script>
-	<div id="wrap">
-		<header class="header cf container">
-			<h1 class="logo">
-				<a href="https://quflrhrl.github.io">Byeol&nbsp;-&nbsp;log</a>
-			</h1>
-			<nav>
-				<ul class="gnb">
-					<li class="over"><a href="/posts/">Posts</a></li>
-					<li class="over"><a href="/projects/">Projects</a></li>
-					<li class="over"><a href="#">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
-	<section class="display_section container">
-		<div class="cf">
-			<section class="promotion_section container">
-				<h2 class="sec_title">Projects</h2>
-				
-			</section>
-		</div>
-	</section>
-	<footer class="footer">
-		<hr class="divider">
-		<p>COPYRIGHT ALL RIGHTS RESERVED., BYEOL</p>
-	</footer>
+
 > 우선 Java에서는 프로그램의 흐름을 제어해야 할 때가 있다. 이때 사용하는 실행문으로 '**제어문**'이 사용되는데, 제어문에는 조건문, 반복문, 분기문 등이 포함된다. 이 중에서 조건문에 대해 먼저 알아보자!
 > 
 
