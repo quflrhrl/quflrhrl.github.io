@@ -2459,7 +2459,7 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 3em 0 1em 0;
+		padding: 3em 0 5em 0;
 		background: #2b252c;
 		color: #fff;
 	}
