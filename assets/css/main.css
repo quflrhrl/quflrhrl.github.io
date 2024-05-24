@@ -3134,5 +3134,9 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
+		/* kakaomap */
+		 .root_daum_roughmap {
+        margin: auto !important;
+    }
 
 	}
