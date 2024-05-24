@@ -3135,7 +3135,7 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 		/* kakaomap */
-		 .root_daum_roughmap {
+		 div.root_daum_roughmap {
         margin: auto !important;
     }
 
