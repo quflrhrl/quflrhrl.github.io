@@ -3138,11 +3138,11 @@ input, select, textarea {
 		 .ratiowrap {
 	position:relative;
 	margin:0 auto;
-	max-width:1000px;
-	width:150%;
+	max-width:800px;
+	width:100%;
 }
 .ratiowrap > div {
-	width:100%;
+	width:150%;
 	padding-bottom:56.25%;
 }
 .ratiowrap > div iframe {
