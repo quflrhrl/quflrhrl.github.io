@@ -3135,8 +3135,22 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 		/* kakaomap */
-		 div.root_daum_roughmap {
-        margin: auto !important;
+		 .ratiowrap {
+	position:relative;
+	margin:0 auto;
+	max-width:800px;
+	width:100%;
+}
+.ratiowrap > div {
+	width:100%;
+	padding-bottom:56.25%;
+}
+.ratiowrap > div iframe {
+	position:absolute;
+	z-index:1;
+	top:0;left:0;
+	width:100%;height:100%;
+}
     }
 
 	}
