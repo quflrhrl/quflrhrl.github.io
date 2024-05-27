@@ -3138,7 +3138,7 @@ input, select, textarea {
 		 .ratiowrap {
 	position:relative;
 	margin:0 auto;
-	max-width:800px;
+	max-width:1200px;
 	width:100%;
 }
 .ratiowrap > div {
