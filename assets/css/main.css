@@ -3142,10 +3142,10 @@ input, select, textarea {
 	width:100%;
 }
 .ratiowrap > div {
-	width:150%;
+	width:100%;
 	padding-bottom:56.25%;
 }
-.ratiowrap > div iframe {
+.ratiowrap > div script {
 	position:absolute;
 	z-index:1;
 	top:0;left:0;
